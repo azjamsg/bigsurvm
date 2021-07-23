@@ -4,7 +4,7 @@
 
    1. Download macOS Big Sur From Apple
 
-   2. Create & Mount an empty Disk Image using hdiutil
+   2. Create & Mount an empty Disk Image using hdiutil<br>
    ⋅⋅⋅	2.1. Once macOS is downloaded then Open Terminal and type the following command to create an empty disk image. Type your password when prompted.
       (sudo hdiutil create -o /tmp/BigSur -size 16384m -volname BigSur -layout SPUD -fs HFS+J)
    ⋅⋅⋅2.2. Next, Mount the disk image to /Volumes/BigSur.
